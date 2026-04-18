@@ -69,13 +69,10 @@ const Reg = () => {
 
       <section className='relative bg-black min-h-screen flex flex-col md:flex-row items-center justify-center px-4 py-20 gap-12 md:gap-20 overflow-hidden'>
         
-        {/* 🔵 Cyan Glow */}
         <div className='fixed top-[40%] left-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none size-200 bg-cyan-500/20 rounded-full blur-[160px]'></div>
 
-        {/* 🟠 Subtle Orange Glow */}
         <div className='fixed top-[60%] left-[60%] -translate-x-1/2 -translate-y-1/2 pointer-events-none size-140 bg-orange-500/10 rounded-full blur-[180px]'></div>
         
-        {/* LEFT */}
         <div className='text-center md:text-left z-10'>
           
           <h1 className='text-white font-semibold text-xl tracking-wide'>
@@ -100,7 +97,6 @@ const Reg = () => {
           </p> 
         </div>
 
-        {/* RIGHT CARD */}
         <div className='w-full max-w-md z-10 bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-2xl p-8 shadow-2xl'>
           
           <div className="mb-8 text-center md:text-left">
@@ -158,7 +154,7 @@ const Reg = () => {
                 onSubmit={handleRegister}
                 className="space-y-5"
               >
-                {/* Role Toggle */}
+               
                 <div className="flex gap-3">
                   <button
                     type="button"
